@@ -5,7 +5,7 @@ on: push  # Runs the workflow on every push
 jobs:
   sonarcloud:
     runs-on: windows-latest  # Uses Windows runner
-    name: Run SonarCloud Analysis on Windows
+    name: Run SonarCloud Analysis on Windowsss
 
     steps:
       - name: Checkout repository
