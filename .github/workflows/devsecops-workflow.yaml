@@ -3,9 +3,10 @@ on: push
   
 
 jobs:
-  build:
-    name: Build and analyze
-    runs-on: windows-latest
+  sonarcloud:
+    runs-on: windows-latest  # Uses Windows runner
+    name: Run SonarCloud Analysis on Windowsss
+
     steps:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
