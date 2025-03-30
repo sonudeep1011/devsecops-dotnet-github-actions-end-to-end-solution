@@ -5,7 +5,7 @@ on: push
 jobs:
   sonarcloud:
     runs-on: windows-latest  # Uses Windows runner
-    name: Run SonarCloud Analysis on Windows
+    name: Run SonarCloud Analysis on Windowssss
 
     steps:
       - name: Set up JDK 17
